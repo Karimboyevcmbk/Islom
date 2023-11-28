@@ -1,0 +1,21 @@
+.vidio{
+    padding: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    Video{
+        width: 100%;
+    }
+    .closeNamesalom{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width:900px){
+    .vidio{
+        padding: 20px;
+        padding-top: 120px;
+    }
+}

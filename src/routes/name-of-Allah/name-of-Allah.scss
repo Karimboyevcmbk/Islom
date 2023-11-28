@@ -1,0 +1,44 @@
+.nameOfAllah{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .closeName{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 50px;
+    }
+    .singleName{
+        width: 200px;
+        height: 70px;
+        background-color: #fff;
+        border-radius: 5px;
+        .ArabicName{
+            width: 100%;
+            height: 45px;
+            border: none;
+            border-top-right-radius: 5px;
+            border-top-left-radius: 5px;
+            font-size: 25px;
+            border-bottom: 1px solid black;
+        }
+        .UzbekName{
+            width: 100%;
+            height: 25px;
+            border: none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+    }
+}
+@media only screen and (max-width:615px){
+    .nameOfAllah{
+        padding: 30px;
+        padding-top: 100px;
+    }
+}

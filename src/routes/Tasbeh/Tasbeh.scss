@@ -1,0 +1,41 @@
+.tasbeh{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+    .closeNametasbeh{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 50px;
+    }
+    .qoshish{
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border: none;
+        border-radius: 50%;
+        -webkit-box-shadow: 12px 4px 21px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 12px 4px 21px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 12px 4px 21px 0px rgba(34, 60, 80, 0.2);
+        cursor: pointer;
+        font-size: 25px;
+        color: green;
+    }
+    .tozalash{
+        border-radius: 50%;
+        background: rgb(192, 63, 63);
+        color: #fff;
+        width: 50px;
+        height: 50px;
+        border: none;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

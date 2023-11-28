@@ -1,0 +1,31 @@
+.Hadislar{
+    background-color: #0C801D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    .closeNameHadis{
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #fff;
+        font-size: 50px;
+    }
+    .hadis{
+        background-color: #fff;
+        max-width: 1200px;
+        padding: 20px 10px;
+        text-align: center;
+        h2{
+            margin-bottom: 20px;
+        }
+        h3{
+            text-align: start;
+            margin-top: 10px;
+        }
+        p{
+            text-align: start;
+        }
+    }
+}

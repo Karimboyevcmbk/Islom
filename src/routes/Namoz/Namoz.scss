@@ -1,0 +1,18 @@
+.namoz{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px;
+    .erkak{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+    .ayol{
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 15px;
+    }
+}

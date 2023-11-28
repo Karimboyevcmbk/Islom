@@ -1,0 +1,14 @@
+.container{
+    background-color: #0C801D;
+    .settings{
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        font-size: 50px;
+        color: #fff;
+        transition: transform 1s ease-in-out;
+    }
+    .settings:hover{
+        transform: rotate(180deg);
+    }
+}
